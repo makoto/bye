@@ -1,21 +1,25 @@
-import logo from './logo.svg';
+import logo from './laptop.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>
+          Say Bye to Kickback
+        </p>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          (2016-2023)
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://medium.com/wearekickback"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn More
         </a>
       </header>
     </div>
